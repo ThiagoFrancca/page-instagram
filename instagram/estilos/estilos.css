@@ -22,7 +22,7 @@ body{
     background-position: 0px -52px;
     width: 234px;
     height: 81px;
-    margin: 20px 0 30px 0;
+    margin: 18px 0 30px 0;
     display: inline-block;
 }
 .img-celular{
@@ -42,27 +42,36 @@ body{
     padding: 1.25rem 2.5rem;
     border: 1px solid rgb(219,219,219);
     margin-bottom: 10px;
+    text-overflow: ellipsis;
 }
 .formulario input{
     width: 100%;
-    color: #dbdbdb;
+    color: black;
+    font-family:'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
     box-sizing: border-box;
-    font-size: 0.7rem;
-    padding: 13px 0 13px 8px;
+    font-size: 16px;
+    text-align: left;
+    font-weight: 400;
+    padding: 9px 0 7px 8px;
     border: 1px solid #dbdbdb;
     margin-bottom: 4px;
     border-radius: 3px;
     outline: none;
+    text-overflow: ellipsis;
+
 }
 .formulario button {
     color: #fff;
-    font-weight: 7bold;
+    font-weight: bold;
     width: 100%;
     margin-top: 15px;
-    background: #0195f6;
+    margin-bottom: 8px;
+    margin-right: 40px;
+    background: #0095F6;
     border: none;
-    padding: 10px;
-    border-radius: 5px;
+    padding: 8px;
+    border-radius: 8px;
+    
     cursor: pointer;
 }
 .formulario button:hover{
@@ -103,9 +112,9 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0 auto 30px;
+    margin: 0 auto 5px;
     text-transform: inherit;
-    -webkit-user-select: none;
+    
 }
 .facebook > img{
     border: 0;
@@ -127,9 +136,67 @@ body{
     font-size: 12px;
     color: rgb(0,55,107);
     line-height: var(--system-12-line-height);
-    margin-top: 12px;
+    margin-top: 1px;
     text-align: center;
     text-decoration: none;
     display: inline;
     -webkit-tap-highlight-color: transparent;
+}
+.cadastro{
+    color: black;
+    border: 1px solid #dbdbdb;
+    background-color: #fff;
+    padding: 20px 0;
+    margin: 0 0 20px;
+}
+.cadastro a{
+    color: #0095F6;
+    font-weight: 600;
+    text-decoration: none;
+}
+.apps{
+    margin-top: 20px;
+    color: black;
+}
+
+.apps p{
+    font-size: 0.8rem;
+}
+
+.apps img{
+    margin-top: 30px;
+    height: 45px;
+    width: 135px;
+    
+    
+}
+img.microsoft{
+    margin-top: 10px;
+    height: 39px;
+    width: 135px;
+    border-radius: 2px;
+    
+}
+.footer{
+    text-align: center;
+    width: 970px;
+    margin: 0 auto;
+    font-size: 12px;
+    color: #8e8e8e;
+}
+
+.footer a{
+    color: #8e8e8e;
+    display: inline-block;
+    margin: 0 0.375rem 0.625rem;
+}
+.assinatura{
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 300;
+
+}
+.assinatura a{
+    color: rgba(228, 102, 102, 0.822);
+    text-decoration: underline;
 }
