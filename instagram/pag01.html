@@ -8,59 +8,75 @@
     <link rel="stylesheet" href="estilos/estilos.css">
 </head>
 <body>
-    <main>
+    <main class="contaim">
         
-            <section>
-               
-                <div id="imagem">
-                    <!--A imagem vai no css-->
-                    <img src="imagens/Captura de tela 2023-08-08 114022.png" alt="">
-                </div>
-                <section id="login">
-                <div id="formulario">
-                            <h1>Instagram</h1>
-                            <form action="login.php" method="get">
-                                    <div id="campo">
-                                <input type="email" name="e-mail" id="imail" autocomplete="email" placeholder="Telefone, nome de usuário ou email">
-                                <label for="imail"></label>
-                                    </div>
-                                    <div id="campo">
-                               
-                                <input type="password" name="senha" id="isenha" required minlength="8" placeholder="Senha">
-                            
-                               </div>
-                               <div id="botao">
-                                <input type="submit" value="Entrar">
-                               </div>
-                        
-                        <h3>OU</h2>
-                        <button class="facebook">
-                            <span><img src="imagens/facebook.png" alt="facebook" width="25px">Entrar com o Facebook</span>
-                        </button>
-                        <a href="#" class="botao">Esqueceu a senha?</a>
-                                        </div>
-                                        <div class="cadastro">
-                        
-                            <span>
-                                <p>Não tem uma conta?</p>
-                                <a href="#">Cadastre-se</a>
-                            </span>
-                                           
-                                        </div>
-                        
-                                        <div class="apps">
-                        <p>Obtenha o aplicativo</p>
-                        <a href="https://play.google.com/store/apps/details?id=com.instagram.android&referrer=ig_mid%3DA8512913-906A-4442-B71E-8F41FE35CDC7%26utm_campaign%3DloginPage%26utm_content%3Dlo%26utm_source%3Dinstagramweb%26utm_medium%3Dbadge&pli=1" target="_blank"><img src="imagens/transferir.png" alt="google play" width="100px"></a>
-                        <a href="https://apps.microsoft.com/store/detail/instagram/9NBLGGH5L9XT" target="_blank" ><img src="imagens/microsoft.png" alt="microsoft" width="100px"></a>
-                                        </div>
-                    </div>
-                </form>
+          
+            <section class="img-celular">
+            
+                <!--A imagem vai no css-->
+                <img src="imagens/Captura de tela 2023-08-08 114022.png" alt="foto retirada do Instagram">
             </section>
-            </section>
-        
-    </main>
-    <footer>
+            <section class="formulario">
+                <form action="login.php" method="get">
+                    <img src="imagens/nome-instagram.png" class="logo-instagram" alt="Instagram logotipo">
+                    <label for="imail"></label>
+                    <input type="email" name="e-mail" id="imail" autocomplete="email" placeholder="Telefone, nome de usuário ou email">
+                    <label for="isenha"></label>
+                    <input type="password" name="senha" id="isenha" required minlength="8" placeholder="Senha">
+                    <input type="submit" value="Entrar">
+                    <div classe="ou">OU</div>
+                    <a href="https://www.facebook.com/login.php?skip_api_login=1&api_key=124024574287414&kid_directed_site=0&app_id=124024574287414&signed_next=1&next=https%3A%2F%2Fwww.facebook.com%2Fdialog%2Foauth%3Fclient_id%3D124024574287414%26locale%3Dpt_BR%26redirect_uri%3Dhttps%253A%252F%252Fwww.instagram.com%252Faccounts%252Fsignup%252F%26response_type%3Dcode%252Cgranted_scopes%26scope%3Demail%26state%3D%257B%2522fbLoginKey%2522%253A%25221wod7r1169alj739kft01w1ucho1ns3f3txeo3s3i0d532e0owh0%2522%252C%2522fbLoginReturnURL%2522%253A%2522%252Ffxcal%252Fdisclosure%252F%253Fnext%253D%25252F%2522%257D%26ret%3Dlogin%26fbapp_pres%3D0%26logger_id%3D4d8b1bb4-397f-4623-9532-a00043681520%26tp%3Dunspecified&cancel_url=https%3A%2F%2Fwww.instagram.com%2Faccounts%2Fsignup%2F%3Ferror%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied%26state%3D%257B%2522fbLoginKey%2522%253A%25221wod7r1169alj739kft01w1ucho1ns3f3txeo3s3i0d532e0owh0%2522%252C%2522fbLoginReturnURL%2522%253A%2522%252Ffxcal%252Fdisclosure%252F%253Fnext%253D%25252F%2522%257D%23_%3D_&display=page&locale=pt_BR&pl_dbl=0" class="login-facebook">
+                        <img src="imagens/facebook.png" alt="facebook" width="25px">Entrar com o Facebook
+                    </a>
+                    <a href="https://www.instagram.com/accounts/password/reset/" class="forgot-pass">Esqueceu a senha ?</a>
+                    </form>
 
+                <section class="cadastro">
+                    <p>Não tem uma conta? <a href="https://www.instagram.com/accounts/emailsignup/">Cadastre-se</a></p>
+                </section>
+
+                <section class="apps">
+
+                    <p>Obtenha o aplicativo</p>
+                    <a href="https://play.google.com/store/apps/details?id=com.instagram.android&referrer=ig_mid%3DA8512913-906A-4442-B71E-8F41FE35CDC7%26utm_campaign%3DloginPage%26utm_content%3Dlo%26utm_source%3Dinstagramweb%26utm_medium%3Dbadge&pli=1" target="_blank">
+                        <img src="imagens/transferir.png" alt="google play" width="100px">
+                    </a>
+                    <a href="https://apps.microsoft.com/store/detail/instagram/9NBLGGH5L9XT" target="_blank" >
+                        <img src="imagens/microsoft.png" alt="microsoft" width="100px">
+                    </a>
+
+                </section>
+            </section>
+     </main>
+
+
+     <div class="clone-page">
+<p>Página clone do Instagram, feita por <a href="https://github.com/ThiagoFrancca">Thiago Franca</a></p>
+     </div>          
+            
+        
+    
+     <footer class="footer">
+        <nav>
+            <a href="#">Meta</a>
+            <a href="#">Sobre</a>
+            <a href="#">Blog</a>
+            <a href="#">Carreiras</a>
+            <a href="#">Ajuda</a>
+            <a href="#">API</a>
+            <a href="#">Privacidade</a>
+            <a href="#">Termos</a>
+            <a href="#">Principais contas</a>
+            <a href="#">Localizações</a>
+            <a href="#">Instagram Lite</a>
+            <a href="#">Threads</a>
+            <a href="#">Carregamento de contatos e não usuários</a> 
+            <a href="#">Meta Verified</a>
+        </nav>
+        <div class="final">
+            <span>Português (Brasil)</span>
+            <span>© 2023 Instagram from Meta</span>
+        </div>
     </footer>
 </body>
 </html>
